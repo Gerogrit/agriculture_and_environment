@@ -1,4 +1,4 @@
-name: sql-practice
+name: agri_env
 channels:
   - conda-forge
   - defaults

@@ -43,9 +43,7 @@ dependencies:
   - jupyter_client=6.1.7=py_0
   - jupyter_console=6.2.0=py_0
   - jupyter_core=4.7.1=py38hecd8cb5_0
-  - jupyterlab=2.2.6=py_0
   - jupyterlab_pygments=0.1.2=py_0
-  - jupyterlab_server=1.2.0=py_0
   - jupyterlab_widgets=1.0.0=pyhd3eb1b0_1
   - krb5=1.17.1=hddcf347_0
   - libcxx=11.1.0=habf9029_0
@@ -135,4 +133,14 @@ dependencies:
   - zipp=3.4.0=pyhd3eb1b0_0
   - zlib=1.2.11=h1de35cc_3
   - zstd=1.4.9=h582d3a0_0
-prefix: /Users/andrewemmett/opt/anaconda3/envs/sql-practice
+  - pip:
+    - anyio==3.2.1
+    - babel==2.9.1
+    - jupyter-server==1.9.0
+    - jupyterlab==3.0.16
+    - jupyterlab-server==2.6.0
+    - nbclassic==0.3.1
+    - requests-unixsocket==0.2.0
+    - sniffio==1.2.0
+    - websocket-client==1.1.0
+prefix: /usr/local/Caskroom/miniconda/base/envs/agri_env

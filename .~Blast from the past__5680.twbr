@@ -1,0 +1,2797 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20211.21.0511.0935                               -->
+<workbook source-build='2021.1.2 (20211.21.0511.0935)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column caption='Dbv Group Parameter' datatype='integer' name='[Dbv Group (Agri Dbv Consumption) Parameter]' param-domain-type='range' role='measure' type='quantitative' value='3'>
+        <calculation class='tableau' formula='3' />
+        <range max='10' min='1' />
+      </column>
+      <column caption='Food Product Parameter' datatype='string' name='[Food Product Parameter]' param-domain-type='list' role='measure' type='nominal' value='&quot;Fish&quot;'>
+        <calculation class='tableau' formula='&quot;Fish&quot;' />
+        <members>
+          <member value='&quot;Bread&quot;' />
+          <member value='&quot;Citrus fruits&quot;' />
+          <member value='&quot;Eggs (items)&quot;' />
+          <member value='&quot;Fish&quot;' />
+          <member value='&quot;Fruits&quot;' />
+          <member value='&quot;Meat&quot;' />
+          <member value='&quot;Milk, Butter, Cheese&quot;' />
+          <member value='&quot;Oils, fats&quot;' />
+          <member value='&quot;Potatoes&quot;' />
+          <member value='&quot;Vegetables, salad&quot;' />
+        </members>
+      </column>
+      <column caption='Year Parameter' datatype='date' name='[Year Parameter]' param-domain-type='list' role='measure' type='quantitative' value='#2005-01-01#'>
+        <calculation class='tableau' formula='#2005-01-01#' />
+        <members>
+          <member value='#2021-07-05#' />
+          <member value='#1950-01-01#' />
+          <member value='#1951-01-01#' />
+          <member value='#1952-01-01#' />
+          <member value='#1953-01-01#' />
+          <member value='#1954-01-01#' />
+          <member value='#1955-01-01#' />
+          <member value='#1956-01-01#' />
+          <member value='#1957-01-01#' />
+          <member value='#1958-01-01#' />
+          <member value='#1959-01-01#' />
+          <member value='#1960-01-01#' />
+          <member value='#1961-01-01#' />
+          <member value='#1962-01-01#' />
+          <member value='#1963-01-01#' />
+          <member value='#1964-01-01#' />
+          <member value='#1965-01-01#' />
+          <member value='#1966-01-01#' />
+          <member value='#1967-01-01#' />
+          <member value='#1968-01-01#' />
+          <member value='#1969-01-01#' />
+          <member value='#1970-01-01#' />
+          <member value='#1971-01-01#' />
+          <member value='#1972-01-01#' />
+          <member value='#1973-01-01#' />
+          <member value='#1974-01-01#' />
+          <member value='#1975-01-01#' />
+          <member value='#1976-01-01#' />
+          <member value='#1977-01-01#' />
+          <member value='#1978-01-01#' />
+          <member value='#1979-01-01#' />
+          <member value='#1980-01-01#' />
+          <member value='#1981-01-01#' />
+          <member value='#1982-01-01#' />
+          <member value='#1983-01-01#' />
+          <member value='#1984-01-01#' />
+          <member value='#1985-01-01#' />
+          <member value='#1986-01-01#' />
+          <member value='#1987-01-01#' />
+          <member value='#1988-01-01#' />
+          <member value='#1989-01-01#' />
+          <member value='#1990-01-01#' />
+          <member value='#1991-01-01#' />
+          <member value='#1992-01-01#' />
+          <member value='#1993-01-01#' />
+          <member value='#1994-01-01#' />
+          <member value='#1995-01-01#' />
+          <member value='#1996-01-01#' />
+          <member value='#1997-01-01#' />
+          <member value='#1998-01-01#' />
+          <member value='#1999-01-01#' />
+          <member value='#2000-01-01#' />
+          <member value='#2001-01-01#' />
+          <member value='#2002-01-01#' />
+          <member value='#2003-01-01#' />
+          <member value='#2004-01-01#' />
+          <member value='#2005-01-01#' />
+          <member value='#2006-01-01#' />
+          <member value='#2007-01-01#' />
+          <member value='#2008-01-01#' />
+          <member value='#2009-01-01#' />
+          <member value='#2010-01-01#' />
+          <member value='#2011-01-01#' />
+          <member value='#2012-01-01#' />
+          <member value='#2013-01-01#' />
+          <member value='#2014-01-01#' />
+          <member value='#2015-01-01#' />
+          <member value='#2016-01-01#' />
+          <member value='#2017-01-01#' />
+          <member value='#2018-01-01#' />
+          <member value='#2019-01-01#' />
+          <member value='#2020-01-01#' />
+          <member value='#2021-01-01#' />
+          <member value='#2022-01-01#' />
+          <member value='#2023-01-01#' />
+          <member value='#2024-01-01#' />
+          <member value='#2025-01-01#' />
+          <member value='#2026-01-01#' />
+          <member value='#2027-01-01#' />
+          <member value='#2028-01-01#' />
+          <member value='#2029-01-01#' />
+          <member value='#2030-01-01#' />
+          <member value='#2031-01-01#' />
+          <member value='#2032-01-01#' />
+          <member value='#2033-01-01#' />
+          <member value='#2034-01-01#' />
+          <member value='#2035-01-01#' />
+          <member value='#2036-01-01#' />
+          <member value='#2037-01-01#' />
+          <member value='#2038-01-01#' />
+          <member value='#2039-01-01#' />
+          <member value='#2040-01-01#' />
+          <member value='#2041-01-01#' />
+          <member value='#2042-01-01#' />
+          <member value='#2043-01-01#' />
+          <member value='#2044-01-01#' />
+          <member value='#2045-01-01#' />
+          <member value='#2046-01-01#' />
+          <member value='#2047-01-01#' />
+          <member value='#2048-01-01#' />
+          <member value='#2049-01-01#' />
+          <member value='#2050-01-01#' />
+          <member value='#2051-01-01#' />
+          <member value='#2052-01-01#' />
+          <member value='#2053-01-01#' />
+          <member value='#2054-01-01#' />
+          <member value='#2055-01-01#' />
+          <member value='#2056-01-01#' />
+          <member value='#2057-01-01#' />
+          <member value='#2058-01-01#' />
+          <member value='#2059-01-01#' />
+          <member value='#2060-01-01#' />
+          <member value='#2061-01-01#' />
+          <member value='#2062-01-01#' />
+          <member value='#2063-01-01#' />
+          <member value='#2064-01-01#' />
+          <member value='#2065-01-01#' />
+          <member value='#2066-01-01#' />
+          <member value='#2067-01-01#' />
+          <member value='#2068-01-01#' />
+          <member value='#2069-01-01#' />
+          <member value='#2070-01-01#' />
+          <member value='#2071-01-01#' />
+          <member value='#2072-01-01#' />
+          <member value='#2073-01-01#' />
+          <member value='#2074-01-01#' />
+          <member value='#2075-01-01#' />
+          <member value='#2076-01-01#' />
+          <member value='#2077-01-01#' />
+          <member value='#2078-01-01#' />
+          <member value='#2079-01-01#' />
+          <member value='#2080-01-01#' />
+          <member value='#2081-01-01#' />
+          <member value='#2082-01-01#' />
+          <member value='#2083-01-01#' />
+          <member value='#2084-01-01#' />
+          <member value='#2085-01-01#' />
+          <member value='#2086-01-01#' />
+          <member value='#2087-01-01#' />
+          <member value='#2088-01-01#' />
+          <member value='#2089-01-01#' />
+          <member value='#2090-01-01#' />
+          <member value='#2091-01-01#' />
+          <member value='#2092-01-01#' />
+          <member value='#2093-01-01#' />
+          <member value='#2094-01-01#' />
+          <member value='#2095-01-01#' />
+          <member value='#2096-01-01#' />
+          <member value='#2097-01-01#' />
+          <member value='#2098-01-01#' />
+          <member value='#2099-01-01#' />
+          <member value='#2100-01-01#' />
+        </members>
+      </column>
+    </datasource>
+    <datasource caption='agri_un_world_population (capstone_pool)' inline='true' name='federated.12mrz581n4tg8e1drtbfn1ve0vds' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='db-postgresql-fra1-70962-do-user-8861194-0.b.db.ondigitalocean.com' name='postgres.0njyuuu101c2qt1cmsgzg18y0yta'>
+            <connection authentication='username-password' class='postgres' dbname='capstone_pool' one-time-sql='' port='25061' server='db-postgresql-fra1-70962-do-user-8861194-0.b.db.ondigitalocean.com' sslmode='require' username='dauser' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='postgres.0njyuuu101c2qt1cmsgzg18y0yta' name='agri_un_world_population' table='[public].[agri_un_world_population]' type='table'>
+          <columns>
+            <column datatype='date' date-parse-format='yyyy' name='time' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='postgres.0njyuuu101c2qt1cmsgzg18y0yta' name='agri_un_world_population' table='[public].[agri_un_world_population]' type='table'>
+          <columns>
+            <column datatype='date' date-parse-format='yyyy' name='time' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[location]</local-name>
+            <parent-name>[agri_un_world_population]</parent-name>
+            <remote-alias>location</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_un_world_population_37ECBD70B80C4BAF8278F310DD635F65]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>variant</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[variant]</local-name>
+            <parent-name>[agri_un_world_population]</parent-name>
+            <remote-alias>variant</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_un_world_population_37ECBD70B80C4BAF8278F310DD635F65]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>time</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[time]</local-name>
+            <parent-name>[agri_un_world_population]</parent-name>
+            <remote-alias>time</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_un_world_population_37ECBD70B80C4BAF8278F310DD635F65]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>poptotal</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[poptotal]</local-name>
+            <parent-name>[agri_un_world_population]</parent-name>
+            <remote-alias>poptotal</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>17</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_un_world_population_37ECBD70B80C4BAF8278F310DD635F65]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Germany Population Totals' datatype='real' name='[Calculation_2488238855129260052]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='CASE [location]&#10;WHEN &quot;Germany&quot; THEN [poptotal] * 1000 END' />
+      </column>
+      <column caption='Population Calculation Germany' datatype='real' name='[Calculation_2488238855133483029]' role='dimension' type='quantitative'>
+        <calculation class='tableau' formula='IF [location] == &quot;Germany&quot; AND [variant] == &quot;Medium&quot; THEN [poptotal] END' />
+      </column>
+      <column caption='Germany Medium' datatype='boolean' name='[Calculation_2488238855143628831]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='[location] == &quot;Germany&quot; AND [variant] == &quot;Medium&quot;' />
+      </column>
+      <column caption='Germany population in selected year' datatype='real' name='[Calculation_2488238855321174050]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [location] == &quot;Germany&quot; AND [variant] == &quot;Medium&quot; AND [time] == DATE([Parameters].[Year Parameter]) THEN [poptotal] END' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='agri_un_world_population' datatype='table' name='[__tableau_internal_object_id__].[agri_un_world_population_37ECBD70B80C4BAF8278F310DD635F65]' role='measure' type='quantitative' />
+      <column caption='Location' datatype='string' name='[location]' role='dimension' type='nominal' />
+      <column caption='Poptotal' datatype='real' name='[poptotal]' role='measure' type='quantitative' />
+      <column caption='Year' datatype='date' datatype-customized='true' name='[time]' role='dimension' type='quantitative' />
+      <column caption='Variant' datatype='string' name='[variant]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <datasource-dependencies datasource='Parameters'>
+        <column caption='Year Parameter' datatype='date' name='[Year Parameter]' param-domain-type='list' role='measure' type='quantitative' value='#2005-01-01#'>
+          <calculation class='tableau' formula='#2005-01-01#' />
+        </column>
+      </datasource-dependencies>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='agri_un_world_population' id='agri_un_world_population_37ECBD70B80C4BAF8278F310DD635F65'>
+            <properties context=''>
+              <relation connection='postgres.0njyuuu101c2qt1cmsgzg18y0yta' name='agri_un_world_population' table='[public].[agri_un_world_population]' type='table'>
+                <columns>
+                  <column datatype='date' date-parse-format='yyyy' name='time' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='agri_ifeu_foodprint (capstone_pool)' inline='true' name='federated.1gljgup0kskuxa1b2koqk0irfzmm' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='db-postgresql-fra1-70962-do-user-8861194-0.b.db.ondigitalocean.com' name='postgres.1vu6si41vt5tkc11d61fl1hih9ps'>
+            <connection authentication='username-password' class='postgres' dbname='capstone_pool' one-time-sql='' port='25061' server='db-postgresql-fra1-70962-do-user-8861194-0.b.db.ondigitalocean.com' sslmode='require' username='dauser' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='postgres.1vu6si41vt5tkc11d61fl1hih9ps' name='agri_ifeu_foodprint' table='[public].[agri_ifeu_foodprint]' type='table' />
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='postgres.1vu6si41vt5tkc11d61fl1hih9ps' name='agri_ifeu_foodprint' table='[public].[agri_ifeu_foodprint]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>food</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[food]</local-name>
+            <parent-name>[agri_ifeu_foodprint]</parent-name>
+            <remote-alias>food</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_ifeu_foodprint_0B38E37639554705869CB48A48474694]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>co2_footprint</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[co2_footprint]</local-name>
+            <parent-name>[agri_ifeu_foodprint]</parent-name>
+            <remote-alias>co2_footprint</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>17</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_ifeu_foodprint_0B38E37639554705869CB48A48474694]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[category]</local-name>
+            <parent-name>[agri_ifeu_foodprint]</parent-name>
+            <remote-alias>category</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_ifeu_foodprint_0B38E37639554705869CB48A48474694]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>phosphate_rock_footprint</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[phosphate_rock_footprint]</local-name>
+            <parent-name>[agri_ifeu_foodprint]</parent-name>
+            <remote-alias>phosphate_rock_footprint</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>17</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_ifeu_foodprint_0B38E37639554705869CB48A48474694]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>land_use_footprint</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[land_use_footprint]</local-name>
+            <parent-name>[agri_ifeu_foodprint]</parent-name>
+            <remote-alias>land_use_footprint</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>17</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_ifeu_foodprint_0B38E37639554705869CB48A48474694]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>water_footprint</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[water_footprint]</local-name>
+            <parent-name>[agri_ifeu_foodprint]</parent-name>
+            <remote-alias>water_footprint</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_ifeu_foodprint_0B38E37639554705869CB48A48474694]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>energy_demand</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[energy_demand]</local-name>
+            <parent-name>[agri_ifeu_foodprint]</parent-name>
+            <remote-alias>energy_demand</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>17</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_ifeu_foodprint_0B38E37639554705869CB48A48474694]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>comments</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[comments]</local-name>
+            <parent-name>[agri_ifeu_foodprint]</parent-name>
+            <remote-alias>comments</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_ifeu_foodprint_0B38E37639554705869CB48A48474694]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>short_list</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[short_list]</local-name>
+            <parent-name>[agri_ifeu_foodprint]</parent-name>
+            <remote-alias>short_list</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>17</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_ifeu_foodprint_0B38E37639554705869CB48A48474694]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dbv_group</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[dbv_group]</local-name>
+            <parent-name>[agri_ifeu_foodprint]</parent-name>
+            <remote-alias>dbv_group</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>17</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_ifeu_foodprint_0B38E37639554705869CB48A48474694]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='CO2 by group' datatype='real' name='[Calculation_415246020989677569]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Parameters].[Dbv Group (Agri Dbv Consumption) Parameter] == 1 THEN [co2_footprint]&#10;ELSEIF  [Parameters].[Dbv Group (Agri Dbv Consumption) Parameter] == 2 THEN [co2_footprint]&#10;ELSEIF  [Parameters].[Dbv Group (Agri Dbv Consumption) Parameter] == 3 THEN [co2_footprint]&#10;ELSEIF  [Parameters].[Dbv Group (Agri Dbv Consumption) Parameter] == 4 THEN [co2_footprint]&#10;ELSEIF  [Parameters].[Dbv Group (Agri Dbv Consumption) Parameter] == 5 THEN [co2_footprint]&#10;ELSEIF  [Parameters].[Dbv Group (Agri Dbv Consumption) Parameter] == 6 THEN [co2_footprint]&#10;ELSEIF  [Parameters].[Dbv Group (Agri Dbv Consumption) Parameter] == 7 THEN [co2_footprint]&#10;ELSEIF  [Parameters].[Dbv Group (Agri Dbv Consumption) Parameter] == 8 THEN [co2_footprint]&#10;ELSEIF  [Parameters].[Dbv Group (Agri Dbv Consumption) Parameter] == 9 THEN [co2_footprint]&#10;ELSEIF  [Parameters].[Dbv Group (Agri Dbv Consumption) Parameter] == 10 THEN [co2_footprint]&#10;END' />
+      </column>
+      <column caption='Dairy CO2' datatype='real' name='[Calculation_415246021010485250]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [dbv_group] == 1 THEN [Calculation_415246020989677569] END' />
+      </column>
+      <column caption='Dairy CO2 1900' datatype='real' name='[Calculation_415246021010800643]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Calculation_415246021010485250] * SUM([federated.1tl4urc06zspc813t0gno1co3qr6].[Calculation_415246021011652614])' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='agri_ifeu_foodprint' datatype='table' name='[__tableau_internal_object_id__].[agri_ifeu_foodprint_0B38E37639554705869CB48A48474694]' role='measure' type='quantitative' />
+      <column caption='Category' datatype='string' name='[category]' role='dimension' type='nominal' />
+      <column caption='Co2 Footprint' datatype='real' name='[co2_footprint]' role='measure' type='quantitative' />
+      <column caption='Comments' datatype='string' name='[comments]' role='dimension' type='nominal' />
+      <column caption='Dbv Group' datatype='real' name='[dbv_group]' role='measure' type='quantitative' />
+      <column caption='Energy Demand' datatype='real' name='[energy_demand]' role='measure' type='quantitative' />
+      <column caption='Food' datatype='string' name='[food]' role='dimension' type='nominal' />
+      <column caption='Land Use Footprint' datatype='real' name='[land_use_footprint]' role='measure' type='quantitative' />
+      <column caption='Phosphate Rock Footprint' datatype='real' name='[phosphate_rock_footprint]' role='measure' type='quantitative' />
+      <column caption='Short List' datatype='real' name='[short_list]' role='measure' type='quantitative' />
+      <column caption='Water Footprint' datatype='string' name='[water_footprint]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <datasource-dependencies datasource='Parameters'>
+        <column caption='Dbv Group Parameter' datatype='integer' name='[Dbv Group (Agri Dbv Consumption) Parameter]' param-domain-type='range' role='measure' type='quantitative' value='3'>
+          <calculation class='tableau' formula='3' />
+          <range max='10' min='1' />
+        </column>
+      </datasource-dependencies>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='agri_ifeu_foodprint' id='agri_ifeu_foodprint_0B38E37639554705869CB48A48474694'>
+            <properties context=''>
+              <relation connection='postgres.1vu6si41vt5tkc11d61fl1hih9ps' name='agri_ifeu_foodprint' table='[public].[agri_ifeu_foodprint]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='agri_dbv_consumption2+ (capstone_pool)' inline='true' name='federated.0m61kwm1ylmubb1d03y4y1hyzvtb' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='db-postgresql-fra1-70962-do-user-8861194-0.b.db.ondigitalocean.com' name='postgres.0nwq2ys1urjps513jbmij0v5d9d9'>
+            <connection authentication='username-password' class='postgres' dbname='capstone_pool' one-time-sql='' port='25061' server='db-postgresql-fra1-70962-do-user-8861194-0.b.db.ondigitalocean.com' sslmode='require' username='dauser' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation join='inner' type='join'>
+          <clause type='join'>
+            <expression op='='>
+              <expression op='[agri_dbv_consumption2].[dbv_group]' />
+              <expression op='[agri_ifeu_foodprint].[dbv_group]' />
+            </expression>
+          </clause>
+          <relation connection='postgres.0nwq2ys1urjps513jbmij0v5d9d9' name='agri_dbv_consumption2' table='[public].[agri_dbv_consumption2]' type='table'>
+            <columns>
+              <column datatype='date' date-parse-format='yyyy' name='year' />
+            </columns>
+          </relation>
+          <relation connection='postgres.0nwq2ys1urjps513jbmij0v5d9d9' name='agri_ifeu_foodprint' table='[public].[agri_ifeu_foodprint]' type='table' />
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation join='inner' type='join'>
+          <clause type='join'>
+            <expression op='='>
+              <expression op='[agri_dbv_consumption2].[dbv_group]' />
+              <expression op='[agri_ifeu_foodprint].[dbv_group]' />
+            </expression>
+          </clause>
+          <relation connection='postgres.0nwq2ys1urjps513jbmij0v5d9d9' name='agri_dbv_consumption2' table='[public].[agri_dbv_consumption2]' type='table'>
+            <columns>
+              <column datatype='date' date-parse-format='yyyy' name='year' />
+            </columns>
+          </relation>
+          <relation connection='postgres.0nwq2ys1urjps513jbmij0v5d9d9' name='agri_ifeu_foodprint' table='[public].[agri_ifeu_foodprint]' type='table' />
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[category]' value='[agri_ifeu_foodprint].[category]' />
+          <map key='[co2_footprint]' value='[agri_ifeu_foodprint].[co2_footprint]' />
+          <map key='[comments]' value='[agri_ifeu_foodprint].[comments]' />
+          <map key='[dbv_group (agri_ifeu_foodprint)]' value='[agri_ifeu_foodprint].[dbv_group]' />
+          <map key='[dbv_group]' value='[agri_dbv_consumption2].[dbv_group]' />
+          <map key='[energy_demand]' value='[agri_ifeu_foodprint].[energy_demand]' />
+          <map key='[food]' value='[agri_ifeu_foodprint].[food]' />
+          <map key='[food_product]' value='[agri_dbv_consumption2].[food_product]' />
+          <map key='[kg_per_person]' value='[agri_dbv_consumption2].[kg_per_person]' />
+          <map key='[land_use_footprint]' value='[agri_ifeu_foodprint].[land_use_footprint]' />
+          <map key='[phosphate_rock_footprint]' value='[agri_ifeu_foodprint].[phosphate_rock_footprint]' />
+          <map key='[short_list]' value='[agri_ifeu_foodprint].[short_list]' />
+          <map key='[water_footprint]' value='[agri_ifeu_foodprint].[water_footprint]' />
+          <map key='[year]' value='[agri_dbv_consumption2].[year]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>food_product</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[food_product]</local-name>
+            <parent-name>[agri_dbv_consumption2]</parent-name>
+            <remote-alias>food_product</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_dbv_consumption2_C8C8BFAD757A4419916DBBAAFF22E95A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>kg_per_person</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[kg_per_person]</local-name>
+            <parent-name>[agri_dbv_consumption2]</parent-name>
+            <remote-alias>kg_per_person</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>17</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_dbv_consumption2_C8C8BFAD757A4419916DBBAAFF22E95A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dbv_group</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dbv_group]</local-name>
+            <parent-name>[agri_dbv_consumption2]</parent-name>
+            <remote-alias>dbv_group</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_dbv_consumption2_C8C8BFAD757A4419916DBBAAFF22E95A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[agri_dbv_consumption2]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_dbv_consumption2_C8C8BFAD757A4419916DBBAAFF22E95A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>food</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[food]</local-name>
+            <parent-name>[agri_ifeu_foodprint]</parent-name>
+            <remote-alias>food</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_dbv_consumption2_C8C8BFAD757A4419916DBBAAFF22E95A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>co2_footprint</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[co2_footprint]</local-name>
+            <parent-name>[agri_ifeu_foodprint]</parent-name>
+            <remote-alias>co2_footprint</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>17</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_dbv_consumption2_C8C8BFAD757A4419916DBBAAFF22E95A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[category]</local-name>
+            <parent-name>[agri_ifeu_foodprint]</parent-name>
+            <remote-alias>category</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_dbv_consumption2_C8C8BFAD757A4419916DBBAAFF22E95A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>phosphate_rock_footprint</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[phosphate_rock_footprint]</local-name>
+            <parent-name>[agri_ifeu_foodprint]</parent-name>
+            <remote-alias>phosphate_rock_footprint</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>17</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_dbv_consumption2_C8C8BFAD757A4419916DBBAAFF22E95A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>land_use_footprint</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[land_use_footprint]</local-name>
+            <parent-name>[agri_ifeu_foodprint]</parent-name>
+            <remote-alias>land_use_footprint</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>17</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_dbv_consumption2_C8C8BFAD757A4419916DBBAAFF22E95A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>water_footprint</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[water_footprint]</local-name>
+            <parent-name>[agri_ifeu_foodprint]</parent-name>
+            <remote-alias>water_footprint</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_dbv_consumption2_C8C8BFAD757A4419916DBBAAFF22E95A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>energy_demand</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[energy_demand]</local-name>
+            <parent-name>[agri_ifeu_foodprint]</parent-name>
+            <remote-alias>energy_demand</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>17</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_dbv_consumption2_C8C8BFAD757A4419916DBBAAFF22E95A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>comments</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[comments]</local-name>
+            <parent-name>[agri_ifeu_foodprint]</parent-name>
+            <remote-alias>comments</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_dbv_consumption2_C8C8BFAD757A4419916DBBAAFF22E95A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>short_list</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[short_list]</local-name>
+            <parent-name>[agri_ifeu_foodprint]</parent-name>
+            <remote-alias>short_list</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>17</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_dbv_consumption2_C8C8BFAD757A4419916DBBAAFF22E95A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dbv_group</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[dbv_group (agri_ifeu_foodprint)]</local-name>
+            <parent-name>[agri_ifeu_foodprint]</parent-name>
+            <remote-alias>dbv_group</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>17</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_dbv_consumption2_C8C8BFAD757A4419916DBBAAFF22E95A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='CO2 per product' datatype='real' name='[Calculation_415246021050077198]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[co2_footprint] * [kg_per_person]' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='agri_dbv_consumption2' datatype='table' name='[__tableau_internal_object_id__].[agri_dbv_consumption2_C8C8BFAD757A4419916DBBAAFF22E95A]' role='measure' type='quantitative' />
+      <column caption='Category' datatype='string' name='[category]' role='dimension' type='nominal' />
+      <column caption='Co2 Footprint' datatype='real' name='[co2_footprint]' role='measure' type='quantitative' />
+      <column caption='Comments' datatype='string' name='[comments]' role='dimension' type='nominal' />
+      <column caption='Dbv Group (Agri Ifeu Foodprint)' datatype='real' name='[dbv_group (agri_ifeu_foodprint)]' role='measure' type='quantitative' />
+      <column caption='Dbv Group' datatype='integer' name='[dbv_group]' role='measure' type='quantitative' />
+      <column caption='Energy Demand' datatype='real' name='[energy_demand]' role='measure' type='quantitative' />
+      <column caption='Food' datatype='string' name='[food]' role='dimension' type='nominal' />
+      <column caption='Food Product' datatype='string' name='[food_product]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;Eggs (items)&quot;' value='Eggs (# of items)' />
+        </aliases>
+      </column>
+      <column caption='Land Use Footprint' datatype='real' name='[land_use_footprint]' role='measure' type='quantitative' />
+      <column caption='Phosphate Rock Footprint' datatype='real' name='[phosphate_rock_footprint]' role='measure' type='quantitative' />
+      <column caption='Short List' datatype='real' name='[short_list]' role='measure' type='quantitative' />
+      <column caption='Water Footprint' datatype='string' name='[water_footprint]' role='dimension' type='nominal' />
+      <column caption='Year' datatype='date' datatype-customized='true' name='[year]' role='dimension' type='quantitative' />
+      <column-instance column='[food_product]' derivation='None' name='[none:food_product:nk]' pivot='key' type='nominal' />
+      <column-instance column='[year]' derivation='Year-Trunc' name='[tyr:year:ok]' pivot='key' type='ordinal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[avg:kg_per_person_in_1900:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[sum:kg_per_person_in_1900:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0m61kwm1ylmubb1d03y4y1hyzvtb]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[avg:kg_per_person_in_2019:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[sum:kg_per_person_in_2019:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:food_product:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Milk, Butter, Cheese&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Vegetables, salad&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Eggs (items)&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Oils, fats&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Meat&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Bread&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Fruits&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Potatoes&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Fish&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[tyr:year:ok]' type='palette'>
+            <map to='#2ca02c'>
+              <bucket>#1900-01-01 00:00:00#</bucket>
+            </map>
+            <map to='#98df8a'>
+              <bucket>#2019-01-01 00:00:00#</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='agri_dbv_consumption2' id='agri_dbv_consumption2_C8C8BFAD757A4419916DBBAAFF22E95A'>
+            <properties context=''>
+              <relation join='inner' type='join'>
+                <clause type='join'>
+                  <expression op='='>
+                    <expression op='[agri_dbv_consumption2].[dbv_group]' />
+                    <expression op='[agri_ifeu_foodprint].[dbv_group]' />
+                  </expression>
+                </clause>
+                <relation connection='postgres.0nwq2ys1urjps513jbmij0v5d9d9' name='agri_dbv_consumption2' table='[public].[agri_dbv_consumption2]' type='table'>
+                  <columns>
+                    <column datatype='date' date-parse-format='yyyy' name='year' />
+                  </columns>
+                </relation>
+                <relation connection='postgres.0nwq2ys1urjps513jbmij0v5d9d9' name='agri_ifeu_foodprint' table='[public].[agri_ifeu_foodprint]' type='table' />
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='agri_umweltbundesamt_emissions (capstone_pool)' inline='true' name='federated.0v2w9ps1ob43r912r7dwc06p627m' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='db-postgresql-fra1-70962-do-user-8861194-0.b.db.ondigitalocean.com' name='postgres.02owm690d8jk7i1apx5l818mnxa1'>
+            <connection authentication='username-password' class='postgres' dbname='capstone_pool' one-time-sql='' port='25061' server='db-postgresql-fra1-70962-do-user-8861194-0.b.db.ondigitalocean.com' sslmode='require' username='dauser' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='postgres.02owm690d8jk7i1apx5l818mnxa1' name='agri_umweltbundesamt_emissions' table='[public].[agri_umweltbundesamt_emissions]' type='table'>
+          <columns>
+            <column datatype='date' date-parse-format='yyyy' name='year' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='postgres.02owm690d8jk7i1apx5l818mnxa1' name='agri_umweltbundesamt_emissions' table='[public].[agri_umweltbundesamt_emissions]' type='table'>
+          <columns>
+            <column datatype='date' date-parse-format='yyyy' name='year' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[agri_umweltbundesamt_emissions]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_umweltbundesamt_emissions_18332BD6228D4A84ADAFA9B9A1F0CB2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>co2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[co2]</local-name>
+            <parent-name>[agri_umweltbundesamt_emissions]</parent-name>
+            <remote-alias>co2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>17</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_umweltbundesamt_emissions_18332BD6228D4A84ADAFA9B9A1F0CB2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sector</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[sector]</local-name>
+            <parent-name>[agri_umweltbundesamt_emissions]</parent-name>
+            <remote-alias>sector</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_umweltbundesamt_emissions_18332BD6228D4A84ADAFA9B9A1F0CB2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='agri_umweltbundesamt_emissions' datatype='table' name='[__tableau_internal_object_id__].[agri_umweltbundesamt_emissions_18332BD6228D4A84ADAFA9B9A1F0CB2A]' role='measure' type='quantitative' />
+      <column aggregation='CountD' datatype='real' datatype-customized='true' name='[co2]' role='measure' type='quantitative' />
+      <column datatype='string' name='[sector]' role='dimension' type='nominal' />
+      <column datatype='date' datatype-customized='true' name='[year]' role='dimension' type='ordinal' />
+      <column-instance column='[sector]' derivation='None' name='[none:sector:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:sector:nk]' type='palette'>
+            <map to='#59a14f'>
+              <bucket>&quot;Agriculture&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Landwirtschaft&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Abfallwirtschaft und Sonstiges&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Buildings&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Energiewirtschaft&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Energy&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Gebäude&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Industrie&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Industry&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;LULUCF&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Transport&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Verkehr&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Waste management and others&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='agri_umweltbundesamt_emissions' id='agri_umweltbundesamt_emissions_18332BD6228D4A84ADAFA9B9A1F0CB2A'>
+            <properties context=''>
+              <relation connection='postgres.02owm690d8jk7i1apx5l818mnxa1' name='agri_umweltbundesamt_emissions' table='[public].[agri_umweltbundesamt_emissions]' type='table'>
+                <columns>
+                  <column datatype='date' date-parse-format='yyyy' name='year' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='agri_chicken_beef (capstone_pool)' inline='true' name='federated.0ws19ki0b4q9850zrwrxa0bbrmgy' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='db-postgresql-fra1-70962-do-user-8861194-0.b.db.ondigitalocean.com' name='postgres.03i0ph010iuqj80zu1myf1datg02'>
+            <connection authentication='username-password' class='postgres' dbname='capstone_pool' one-time-sql='' port='25061' server='db-postgresql-fra1-70962-do-user-8861194-0.b.db.ondigitalocean.com' sslmode='require' username='dauser' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='postgres.03i0ph010iuqj80zu1myf1datg02' name='agri_chicken_beef' table='[public].[agri_chicken_beef]' type='table' />
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='postgres.03i0ph010iuqj80zu1myf1datg02' name='agri_chicken_beef' table='[public].[agri_chicken_beef]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>co2_emissions</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[co2_emissions]</local-name>
+            <parent-name>[agri_chicken_beef]</parent-name>
+            <remote-alias>co2_emissions</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_chicken_beef_E0C1DFC42105440A9DA7AA55E2831331]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>beef_average</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[beef_average]</local-name>
+            <parent-name>[agri_chicken_beef]</parent-name>
+            <remote-alias>beef_average</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>17</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_chicken_beef_E0C1DFC42105440A9DA7AA55E2831331]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>chicken_with_transport,_storage_and_packaging</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[chicken_with_transport,_storage_and_packaging]</local-name>
+            <parent-name>[agri_chicken_beef]</parent-name>
+            <remote-alias>chicken_with_transport,_storage_and_packaging</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>17</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_chicken_beef_E0C1DFC42105440A9DA7AA55E2831331]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='agri_chicken_beef' datatype='table' name='[__tableau_internal_object_id__].[agri_chicken_beef_E0C1DFC42105440A9DA7AA55E2831331]' role='measure' type='quantitative' />
+      <column caption='Beef Average' datatype='real' name='[beef_average]' role='measure' type='quantitative' />
+      <column caption='Chicken With Transport, Storage And Packaging' datatype='real' name='[chicken_with_transport,_storage_and_packaging]' role='measure' type='quantitative' />
+      <column caption='Co2 Emissions' datatype='string' name='[co2_emissions]' role='dimension' type='nominal' />
+      <column-instance column='[co2_emissions]' derivation='None' name='[none:co2_emissions:nk]' pivot='key' type='nominal' />
+      <column-instance column='[beef_average]' derivation='Sum' name='[sum:beef_average:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[chicken_with_transport,_storage_and_packaging]' derivation='Sum' name='[sum:chicken_with_transport,_storage_and_packaging:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0ws19ki0b4q9850zrwrxa0bbrmgy].[sum:average_co2:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0ws19ki0b4q9850zrwrxa0bbrmgy].[sum:beef_average:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0ws19ki0b4q9850zrwrxa0bbrmgy].[__tableau_internal_object_id__].[cnt:agri_chicken_beef_18BDBE2B08364460B00DF81D0EB37178:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0ws19ki0b4q9850zrwrxa0bbrmgy]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0ws19ki0b4q9850zrwrxa0bbrmgy].[sum:storage:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0ws19ki0b4q9850zrwrxa0bbrmgy].[sum:chicken_with_transport,_storage_and_packaging:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0ws19ki0b4q9850zrwrxa0bbrmgy].[sum:packaging:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:co2_emissions:nk]' type='palette'>
+            <map to='#59a14f'>
+              <bucket>&quot;Average&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Transport from New Zealand&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Storage&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Packaging&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='agri_chicken_beef' id='agri_chicken_beef_E0C1DFC42105440A9DA7AA55E2831331'>
+            <properties context=''>
+              <relation connection='postgres.03i0ph010iuqj80zu1myf1datg02' name='agri_chicken_beef' table='[public].[agri_chicken_beef]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='agri_dbv_consumption (capstone_pool)' inline='true' name='federated.1tl4urc06zspc813t0gno1co3qr6' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='db-postgresql-fra1-70962-do-user-8861194-0.b.db.ondigitalocean.com' name='postgres.0dgcp4q1qcpao71djo1fe0ogfoko'>
+            <connection authentication='username-password' class='postgres' dbname='capstone_pool' one-time-sql='' port='25061' server='db-postgresql-fra1-70962-do-user-8861194-0.b.db.ondigitalocean.com' sslmode='require' username='dauser' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation join='inner' type='join'>
+          <clause type='join'>
+            <expression op='='>
+              <expression op='[agri_dbv_consumption].[dbv_group]' />
+              <expression op='[agri_ifeu_foodprint].[dbv_group]' />
+            </expression>
+          </clause>
+          <relation connection='postgres.0dgcp4q1qcpao71djo1fe0ogfoko' name='agri_dbv_consumption' table='[public].[agri_dbv_consumption]' type='table' />
+          <relation connection='postgres.0dgcp4q1qcpao71djo1fe0ogfoko' name='agri_ifeu_foodprint' table='[public].[agri_ifeu_foodprint]' type='table' />
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation join='inner' type='join'>
+          <clause type='join'>
+            <expression op='='>
+              <expression op='[agri_dbv_consumption].[dbv_group]' />
+              <expression op='[agri_ifeu_foodprint].[dbv_group]' />
+            </expression>
+          </clause>
+          <relation connection='postgres.0dgcp4q1qcpao71djo1fe0ogfoko' name='agri_dbv_consumption' table='[public].[agri_dbv_consumption]' type='table' />
+          <relation connection='postgres.0dgcp4q1qcpao71djo1fe0ogfoko' name='agri_ifeu_foodprint' table='[public].[agri_ifeu_foodprint]' type='table' />
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[category]' value='[agri_ifeu_foodprint].[category]' />
+          <map key='[co2_footprint]' value='[agri_ifeu_foodprint].[co2_footprint]' />
+          <map key='[comments]' value='[agri_ifeu_foodprint].[comments]' />
+          <map key='[dbv_group (agri_ifeu_foodprint)]' value='[agri_ifeu_foodprint].[dbv_group]' />
+          <map key='[dbv_group]' value='[agri_dbv_consumption].[dbv_group]' />
+          <map key='[energy_demand]' value='[agri_ifeu_foodprint].[energy_demand]' />
+          <map key='[food]' value='[agri_ifeu_foodprint].[food]' />
+          <map key='[food_product]' value='[agri_dbv_consumption].[food_product]' />
+          <map key='[kg_per_person_in_1900]' value='[agri_dbv_consumption].[kg_per_person_in_1900]' />
+          <map key='[kg_per_person_in_2019]' value='[agri_dbv_consumption].[kg_per_person_in_2019]' />
+          <map key='[land_use_footprint]' value='[agri_ifeu_foodprint].[land_use_footprint]' />
+          <map key='[phosphate_rock_footprint]' value='[agri_ifeu_foodprint].[phosphate_rock_footprint]' />
+          <map key='[short_list]' value='[agri_ifeu_foodprint].[short_list]' />
+          <map key='[water_footprint]' value='[agri_ifeu_foodprint].[water_footprint]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>food_product</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[food_product]</local-name>
+            <parent-name>[agri_dbv_consumption]</parent-name>
+            <remote-alias>food_product</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_dbv_consumption_069B17CA4E5241D7B4C9BD3C67E58C96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>kg_per_person_in_1900</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[kg_per_person_in_1900]</local-name>
+            <parent-name>[agri_dbv_consumption]</parent-name>
+            <remote-alias>kg_per_person_in_1900</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>17</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_dbv_consumption_069B17CA4E5241D7B4C9BD3C67E58C96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>kg_per_person_in_2019</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[kg_per_person_in_2019]</local-name>
+            <parent-name>[agri_dbv_consumption]</parent-name>
+            <remote-alias>kg_per_person_in_2019</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>17</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_dbv_consumption_069B17CA4E5241D7B4C9BD3C67E58C96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dbv_group</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[dbv_group]</local-name>
+            <parent-name>[agri_dbv_consumption]</parent-name>
+            <remote-alias>dbv_group</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>19</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_dbv_consumption_069B17CA4E5241D7B4C9BD3C67E58C96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>food</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[food]</local-name>
+            <parent-name>[agri_ifeu_foodprint]</parent-name>
+            <remote-alias>food</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_dbv_consumption_069B17CA4E5241D7B4C9BD3C67E58C96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>co2_footprint</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[co2_footprint]</local-name>
+            <parent-name>[agri_ifeu_foodprint]</parent-name>
+            <remote-alias>co2_footprint</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>17</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_dbv_consumption_069B17CA4E5241D7B4C9BD3C67E58C96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[category]</local-name>
+            <parent-name>[agri_ifeu_foodprint]</parent-name>
+            <remote-alias>category</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_dbv_consumption_069B17CA4E5241D7B4C9BD3C67E58C96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>phosphate_rock_footprint</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[phosphate_rock_footprint]</local-name>
+            <parent-name>[agri_ifeu_foodprint]</parent-name>
+            <remote-alias>phosphate_rock_footprint</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>17</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_dbv_consumption_069B17CA4E5241D7B4C9BD3C67E58C96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>land_use_footprint</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[land_use_footprint]</local-name>
+            <parent-name>[agri_ifeu_foodprint]</parent-name>
+            <remote-alias>land_use_footprint</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>17</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_dbv_consumption_069B17CA4E5241D7B4C9BD3C67E58C96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>water_footprint</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[water_footprint]</local-name>
+            <parent-name>[agri_ifeu_foodprint]</parent-name>
+            <remote-alias>water_footprint</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_dbv_consumption_069B17CA4E5241D7B4C9BD3C67E58C96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>energy_demand</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[energy_demand]</local-name>
+            <parent-name>[agri_ifeu_foodprint]</parent-name>
+            <remote-alias>energy_demand</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>17</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_dbv_consumption_069B17CA4E5241D7B4C9BD3C67E58C96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>comments</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[comments]</local-name>
+            <parent-name>[agri_ifeu_foodprint]</parent-name>
+            <remote-alias>comments</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>2147483647</width>
+            <contains-null>true</contains-null>
+            <cast-to-local-type>true</cast-to-local-type>
+            <collation flag='0' name='LEN_RUS' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_dbv_consumption_069B17CA4E5241D7B4C9BD3C67E58C96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>short_list</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[short_list]</local-name>
+            <parent-name>[agri_ifeu_foodprint]</parent-name>
+            <remote-alias>short_list</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>17</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_dbv_consumption_069B17CA4E5241D7B4C9BD3C67E58C96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dbv_group</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[dbv_group (agri_ifeu_foodprint)]</local-name>
+            <parent-name>[agri_ifeu_foodprint]</parent-name>
+            <remote-alias>dbv_group</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>17</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[agri_dbv_consumption_069B17CA4E5241D7B4C9BD3C67E58C96]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Calculation1' datatype='real' name='[Calculation_415246020984119296]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Parameters].[Dbv Group (Agri Dbv Consumption) Parameter] == 1 THEN [federated.1gljgup0kskuxa1b2koqk0irfzmm].[Calculation_415246020989677569] * [kg_per_person_in_1900]&#10;ELSEIF  [Parameters].[Dbv Group (Agri Dbv Consumption) Parameter] == 2 THEN [federated.1gljgup0kskuxa1b2koqk0irfzmm].[Calculation_415246020989677569] * [kg_per_person_in_1900]&#10;ELSEIF  [Parameters].[Dbv Group (Agri Dbv Consumption) Parameter] == 3 THEN [federated.1gljgup0kskuxa1b2koqk0irfzmm].[Calculation_415246020989677569] * [kg_per_person_in_1900]&#10;ELSEIF  [Parameters].[Dbv Group (Agri Dbv Consumption) Parameter] == 4 THEN [federated.1gljgup0kskuxa1b2koqk0irfzmm].[Calculation_415246020989677569] * [kg_per_person_in_1900]&#10;ELSEIF  [Parameters].[Dbv Group (Agri Dbv Consumption) Parameter] == 5 THEN [federated.1gljgup0kskuxa1b2koqk0irfzmm].[Calculation_415246020989677569] * [kg_per_person_in_1900]&#10;ELSEIF  [Parameters].[Dbv Group (Agri Dbv Consumption) Parameter] == 6 THEN [federated.1gljgup0kskuxa1b2koqk0irfzmm].[Calculation_415246020989677569] * [kg_per_person_in_1900]&#10;ELSEIF  [Parameters].[Dbv Group (Agri Dbv Consumption) Parameter] == 7 THEN [federated.1gljgup0kskuxa1b2koqk0irfzmm].[Calculation_415246020989677569] * [kg_per_person_in_1900]&#10;ELSEIF  [Parameters].[Dbv Group (Agri Dbv Consumption) Parameter] == 8 THEN [federated.1gljgup0kskuxa1b2koqk0irfzmm].[Calculation_415246020989677569] * [kg_per_person_in_1900]&#10;ELSEIF  [Parameters].[Dbv Group (Agri Dbv Consumption) Parameter] == 9 THEN [federated.1gljgup0kskuxa1b2koqk0irfzmm].[Calculation_415246020989677569] * [kg_per_person_in_1900]&#10;ELSEIF  [Parameters].[Dbv Group (Agri Dbv Consumption) Parameter] == 10 THEN [federated.1gljgup0kskuxa1b2koqk0irfzmm].[Calculation_415246020989677569] * [kg_per_person_in_1900]&#10;END' />
+      </column>
+      <column caption='Dairy 1900' datatype='real' name='[Calculation_415246021011652614]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM(IF [dbv_group] == 1 THEN [kg_per_person_in_1900] END)' />
+      </column>
+      <column caption='CO2 per Food product' datatype='real' name='[Calculation_415246021015896073]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[kg_per_person_in_1900] * [co2_footprint]' />
+      </column>
+      <column caption='Co2 emissions per food in 1900' datatype='real' name='[Calculation_415246021019066379]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[kg_per_person_in_1900] * [co2_footprint]' />
+      </column>
+      <column caption='CO2 per emissions per food in 2019' datatype='real' name='[Calculation_415246021019471884]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[kg_per_person_in_2019] * [co2_footprint]' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='agri_dbv_consumption' datatype='table' name='[__tableau_internal_object_id__].[agri_dbv_consumption_069B17CA4E5241D7B4C9BD3C67E58C96]' role='measure' type='quantitative' />
+      <column caption='Category' datatype='string' name='[category]' role='dimension' type='nominal' />
+      <column caption='Co2 Footprint' datatype='real' name='[co2_footprint]' role='measure' type='quantitative' />
+      <column caption='Comments' datatype='string' name='[comments]' role='dimension' type='nominal' />
+      <column caption='Dbv Group (Agri Ifeu Foodprint)' datatype='real' name='[dbv_group (agri_ifeu_foodprint)]' role='measure' type='quantitative' />
+      <column caption='Dbv Group' datatype='integer' name='[dbv_group]' role='measure' type='quantitative' />
+      <column caption='Energy Demand' datatype='real' name='[energy_demand]' role='measure' type='quantitative' />
+      <column caption='Food' datatype='string' name='[food]' role='dimension' type='nominal' />
+      <column caption='Food Product' datatype='string' name='[food_product]' role='dimension' type='nominal' />
+      <column caption='Kg Per Person In 1900' datatype='real' name='[kg_per_person_in_1900]' role='measure' type='quantitative' />
+      <column caption='Kg Per Person In 2019' datatype='real' name='[kg_per_person_in_2019]' role='measure' type='quantitative' />
+      <column caption='Land Use Footprint' datatype='real' name='[land_use_footprint]' role='measure' type='quantitative' />
+      <column caption='Phosphate Rock Footprint' datatype='real' name='[phosphate_rock_footprint]' role='measure' type='quantitative' />
+      <column caption='Short List' datatype='real' name='[short_list]' role='measure' type='quantitative' />
+      <column caption='Water Footprint' datatype='string' name='[water_footprint]' role='dimension' type='nominal' />
+      <column-instance column='[food_product]' derivation='None' name='[none:food_product:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:food_product:nk]' palette='tableau20_10_0' type='palette'>
+            <map to='#59a14f'>
+              <bucket>&quot;Vegetables, salad&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Fish&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>%all%</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Fruits&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Bread&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Oils, fats&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Potatoes&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Meat&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Milk, Butter, Cheese&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Eggs (items)&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:food_product:nk]&#10;[:Measure Names]' type='palette'>
+            <map-pri to='multiordinal_blue_10_0'>
+              <bucket>&quot;Bread&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_brown_10_0'>
+              <bucket>%all%</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gold_10_0'>
+              <bucket>&quot;Fruits&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gray_10_0'>
+              <bucket>&quot;Oils, fats&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_green_10_0'>
+              <bucket>&quot;Fish&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_orange_10_0'>
+              <bucket>&quot;Eggs (items)&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_pink_10_0'>
+              <bucket>&quot;Potatoes&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_purple_10_0'>
+              <bucket>&quot;Vegetables, salad&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_red_10_0'>
+              <bucket>&quot;Milk, Butter, Cheese&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_teal_10_0'>
+              <bucket>&quot;Meat&quot;</bucket>
+            </map-pri>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='agri_dbv_consumption' id='agri_dbv_consumption_069B17CA4E5241D7B4C9BD3C67E58C96'>
+            <properties context=''>
+              <relation join='inner' type='join'>
+                <clause type='join'>
+                  <expression op='='>
+                    <expression op='[agri_dbv_consumption].[dbv_group]' />
+                    <expression op='[agri_ifeu_foodprint].[dbv_group]' />
+                  </expression>
+                </clause>
+                <relation connection='postgres.0dgcp4q1qcpao71djo1fe0ogfoko' name='agri_dbv_consumption' table='[public].[agri_dbv_consumption]' type='table' />
+                <relation connection='postgres.0dgcp4q1qcpao71djo1fe0ogfoko' name='agri_ifeu_foodprint' table='[public].[agri_ifeu_foodprint]' type='table' />
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_2508045147174E04A3EF34B528950A31]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Beef vs. chicken' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Co2 Emissions' />
+        <param name='target' value='Beef vs. chicken' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Beef vs. chicken'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='agri_chicken_beef (capstone_pool)' name='federated.0ws19ki0b4q9850zrwrxa0bbrmgy' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0ws19ki0b4q9850zrwrxa0bbrmgy'>
+            <column caption='Beef Average' datatype='real' name='[beef_average]' role='measure' type='quantitative' />
+            <column caption='Chicken With Transport, Storage And Packaging' datatype='real' name='[chicken_with_transport,_storage_and_packaging]' role='measure' type='quantitative' />
+            <column caption='Co2 Emissions' datatype='string' name='[co2_emissions]' role='dimension' type='nominal' />
+            <column-instance column='[co2_emissions]' derivation='None' name='[none:co2_emissions:nk]' pivot='key' type='nominal' />
+            <column-instance column='[beef_average]' derivation='Sum' name='[sum:beef_average:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[chicken_with_transport,_storage_and_packaging]' derivation='Sum' name='[sum:chicken_with_transport,_storage_and_packaging:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0ws19ki0b4q9850zrwrxa0bbrmgy].[sum:beef_average:qk]' field-type='quantitative' max='15.0' min='0.0' range-type='fixed' scope='rows' type='space' />
+            <encoding attr='space' class='0' field='[federated.0ws19ki0b4q9850zrwrxa0bbrmgy].[sum:chicken_with_transport,_storage_and_packaging:qk]' field-type='quantitative' max='15.0' min='0.0' range-type='fixed' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.0ws19ki0b4q9850zrwrxa0bbrmgy].[sum:beef_average:qk]' scope='rows' value='Beef (avg)' />
+            <format attr='title' class='0' field='[federated.0ws19ki0b4q9850zrwrxa0bbrmgy].[sum:chicken_with_transport,_storage_and_packaging:qk]' scope='rows' value='Chicken (avg.) + transport, storage &amp; packaging' />
+            <format attr='tick-color' scope='cols' value='#00000000' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='tick-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-family' scope='rows' value='Arial' />
+            <format attr='font-size' scope='rows' value='12' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ws19ki0b4q9850zrwrxa0bbrmgy].[none:co2_emissions:nk]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ws19ki0b4q9850zrwrxa0bbrmgy].[sum:beef_average:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ws19ki0b4q9850zrwrxa0bbrmgy].[none:co2_emissions:nk]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0ws19ki0b4q9850zrwrxa0bbrmgy].[sum:chicken_with_transport,_storage_and_packaging:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0ws19ki0b4q9850zrwrxa0bbrmgy].[none:co2_emissions:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.0ws19ki0b4q9850zrwrxa0bbrmgy].[sum:beef_average:qk] + [federated.0ws19ki0b4q9850zrwrxa0bbrmgy].[sum:chicken_with_transport,_storage_and_packaging:qk])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{347DC3EA-B4FC-44C4-AC35-EF183316571E}' />
+    </worksheet>
+    <worksheet name='CO2 Emissions 1900'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='agri_dbv_consumption (capstone_pool)' name='federated.1tl4urc06zspc813t0gno1co3qr6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tl4urc06zspc813t0gno1co3qr6'>
+            <column caption='Co2 emissions per food in 1900' datatype='real' name='[Calculation_415246021019066379]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[kg_per_person_in_1900] * [co2_footprint]' />
+            </column>
+            <column-instance column='[Calculation_415246021019066379]' derivation='Avg' name='[avg:Calculation_415246021019066379:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[kg_per_person_in_1900]' derivation='Avg' name='[avg:kg_per_person_in_1900:qk]' pivot='key' type='quantitative' />
+            <column caption='Co2 Footprint' datatype='real' name='[co2_footprint]' role='measure' type='quantitative' />
+            <column caption='Food Product' datatype='string' name='[food_product]' role='dimension' type='nominal' />
+            <column caption='Kg Per Person In 1900' datatype='real' name='[kg_per_person_in_1900]' role='measure' type='quantitative' />
+            <column-instance column='[food_product]' derivation='None' name='[none:food_product:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1tl4urc06zspc813t0gno1co3qr6].[none:food_product:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1tl4urc06zspc813t0gno1co3qr6].[avg:Calculation_415246021019066379:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='total-label' data-class='total' field='[federated.1tl4urc06zspc813t0gno1co3qr6].[none:food_product:nk]' value='Average' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='alternate-text' field='[federated.1tl4urc06zspc813t0gno1co3qr6].[avg:kg_per_person_in_1900:qk]' value='' />
+            <format attr='display-alternate-text' field='[federated.1tl4urc06zspc813t0gno1co3qr6].[avg:kg_per_person_in_1900:qk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1tl4urc06zspc813t0gno1co3qr6].[none:food_product:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1tl4urc06zspc813t0gno1co3qr6].[avg:kg_per_person_in_1900:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1tl4urc06zspc813t0gno1co3qr6].[none:food_product:nk]' />
+              <text column='[federated.1tl4urc06zspc813t0gno1co3qr6].[avg:kg_per_person_in_1900:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='6' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1tl4urc06zspc813t0gno1co3qr6].[avg:Calculation_415246021019066379:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1tl4urc06zspc813t0gno1co3qr6].[none:food_product:nk]' />
+              <text column='[federated.1tl4urc06zspc813t0gno1co3qr6].[avg:Calculation_415246021019066379:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1tl4urc06zspc813t0gno1co3qr6].[avg:Calculation_415246021019066379:qk] + [federated.1tl4urc06zspc813t0gno1co3qr6].[avg:kg_per_person_in_1900:qk])</rows>
+        <cols total='true'>[federated.1tl4urc06zspc813t0gno1co3qr6].[none:food_product:nk]</cols>
+      </table>
+      <simple-id uuid='{CEEA1502-70BE-46E0-915E-EE8F2A218A0B}' />
+    </worksheet>
+    <worksheet name='CO2 Emissions 1900 (2)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='agri_dbv_consumption (capstone_pool)' name='federated.1tl4urc06zspc813t0gno1co3qr6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tl4urc06zspc813t0gno1co3qr6'>
+            <column-instance column='[kg_per_person_in_1900]' derivation='Avg' name='[avg:kg_per_person_in_1900:qk]' pivot='key' type='quantitative' />
+            <column caption='Food Product' datatype='string' name='[food_product]' role='dimension' type='nominal' />
+            <column caption='Kg Per Person In 1900' datatype='real' name='[kg_per_person_in_1900]' role='measure' type='quantitative' />
+            <column-instance column='[food_product]' derivation='None' name='[none:food_product:nk]' pivot='key' type='nominal' />
+            <column-instance column='[kg_per_person_in_1900]' derivation='None' name='[none:kg_per_person_in_1900:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1tl4urc06zspc813t0gno1co3qr6].[none:food_product:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1tl4urc06zspc813t0gno1co3qr6].[avg:kg_per_person_in_1900:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='total-label' data-class='total' field='[federated.1tl4urc06zspc813t0gno1co3qr6].[none:food_product:nk]' value='Average' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='alternate-text' field='[federated.1tl4urc06zspc813t0gno1co3qr6].[avg:kg_per_person_in_1900:qk]' value='' />
+            <format attr='display-alternate-text' field='[federated.1tl4urc06zspc813t0gno1co3qr6].[avg:kg_per_person_in_1900:qk]' value='false' />
+            <format attr='alternate-text' field='[federated.1tl4urc06zspc813t0gno1co3qr6].[none:kg_per_person_in_1900:qk]' value='' />
+            <format attr='display-alternate-text' field='[federated.1tl4urc06zspc813t0gno1co3qr6].[none:kg_per_person_in_1900:qk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1tl4urc06zspc813t0gno1co3qr6].[none:food_product:nk]' />
+              <text column='[federated.1tl4urc06zspc813t0gno1co3qr6].[avg:kg_per_person_in_1900:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1tl4urc06zspc813t0gno1co3qr6].[none:kg_per_person_in_1900:qk]</rows>
+        <cols>[federated.1tl4urc06zspc813t0gno1co3qr6].[none:food_product:nk]</cols>
+      </table>
+      <simple-id uuid='{25743A57-68B4-49F4-A3D9-7B0C257EAD30}' />
+    </worksheet>
+    <worksheet name='CO2 Emissions 2019'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='agri_dbv_consumption (capstone_pool)' name='federated.1tl4urc06zspc813t0gno1co3qr6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1tl4urc06zspc813t0gno1co3qr6'>
+            <column caption='CO2 per emissions per food in 2019' datatype='real' name='[Calculation_415246021019471884]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[kg_per_person_in_2019] * [co2_footprint]' />
+            </column>
+            <column-instance column='[Calculation_415246021019471884]' derivation='Avg' name='[avg:Calculation_415246021019471884:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[kg_per_person_in_1900]' derivation='Avg' name='[avg:kg_per_person_in_1900:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[kg_per_person_in_2019]' derivation='Avg' name='[avg:kg_per_person_in_2019:qk]' pivot='key' type='quantitative' />
+            <column caption='Co2 Footprint' datatype='real' name='[co2_footprint]' role='measure' type='quantitative' />
+            <column caption='Food Product' datatype='string' name='[food_product]' role='dimension' type='nominal' />
+            <column caption='Kg Per Person In 1900' datatype='real' name='[kg_per_person_in_1900]' role='measure' type='quantitative' />
+            <column caption='Kg Per Person In 2019' datatype='real' name='[kg_per_person_in_2019]' role='measure' type='quantitative' />
+            <column-instance column='[food_product]' derivation='None' name='[none:food_product:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1tl4urc06zspc813t0gno1co3qr6].[none:food_product:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1tl4urc06zspc813t0gno1co3qr6].[avg:Calculation_415246021019471884:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1tl4urc06zspc813t0gno1co3qr6].[avg:kg_per_person_in_2019:qk]' field-type='quantitative' fold='true' scope='rows' synchronized='true' type='space' />
+            <format attr='render-fold-reversed' value='true' />
+            <format attr='width' field='[federated.1tl4urc06zspc813t0gno1co3qr6].[avg:kg_per_person_in_1900:qk]' value='18' />
+            <format attr='width' field='[federated.1tl4urc06zspc813t0gno1co3qr6].[avg:kg_per_person_in_2019:qk]' value='18' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1tl4urc06zspc813t0gno1co3qr6].[none:food_product:nk]' value='69' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='total-label' data-class='total' field='[federated.1tl4urc06zspc813t0gno1co3qr6].[none:food_product:nk]' value='Average' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1tl4urc06zspc813t0gno1co3qr6].[none:food_product:nk]' />
+              <color column='[federated.1tl4urc06zspc813t0gno1co3qr6].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1tl4urc06zspc813t0gno1co3qr6].[avg:kg_per_person_in_2019:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1tl4urc06zspc813t0gno1co3qr6].[none:food_product:nk]' />
+              <text column='[federated.1tl4urc06zspc813t0gno1co3qr6].[avg:kg_per_person_in_2019:qk]' />
+              <color column='[federated.1tl4urc06zspc813t0gno1co3qr6].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1tl4urc06zspc813t0gno1co3qr6].[avg:kg_per_person_in_1900:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1tl4urc06zspc813t0gno1co3qr6].[none:food_product:nk]' />
+              <color column='[federated.1tl4urc06zspc813t0gno1co3qr6].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.73563534021377563' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1tl4urc06zspc813t0gno1co3qr6].[avg:kg_per_person_in_1900:qk] + [federated.1tl4urc06zspc813t0gno1co3qr6].[avg:kg_per_person_in_2019:qk])</rows>
+        <cols total='true'>[federated.1tl4urc06zspc813t0gno1co3qr6].[none:food_product:nk]</cols>
+      </table>
+      <simple-id uuid='{6DE68285-FBE7-44AE-86AB-8205CC0DF6FB}' />
+    </worksheet>
+    <worksheet name='CO2 per sector in Germany 2020'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='agri_umweltbundesamt_emissions (capstone_pool)' name='federated.0v2w9ps1ob43r912r7dwc06p627m' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0v2w9ps1ob43r912r7dwc06p627m'>
+            <column aggregation='CountD' datatype='real' datatype-customized='true' name='[co2]' role='measure' type='quantitative' />
+            <column-instance column='[co2]' derivation='Max' name='[max:co2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[sector]' derivation='None' name='[none:sector:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[sector]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0v2w9ps1ob43r912r7dwc06p627m].[max:co2:qk]' included-values='in-range-or-null'>
+            <min>2.2250738585072014e-308</min>
+          </filter>
+          <slices>
+            <column>[federated.0v2w9ps1ob43r912r7dwc06p627m].[max:co2:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='font-family' data-class='subtotal' scope='cols' value='Waseem' />
+            <format attr='font-family' data-class='subtotal' scope='rows' value='Trattatello' />
+            <format attr='font-size' field='[federated.0v2w9ps1ob43r912r7dwc06p627m].[none:sector:nk]' value='16' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='font-size' data-class='subtotal' field='[federated.0v2w9ps1ob43r912r7dwc06p627m].[none:sector:nk]' value='16' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-family' scope='cols' value='Arial' />
+            <format attr='font-family' scope='rows' value='Trattatello' />
+            <format attr='font-size' scope='cols' value='10' />
+            <format attr='font-size' field='[federated.0v2w9ps1ob43r912r7dwc06p627m].[none:sector:nk]' value='18' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-family' value='Arial' />
+            <format attr='font-size' value='15' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='font-family' value='Arial' />
+          </style-rule>
+          <style-rule element='tooltip'>
+            <format attr='font-family' value='Arial' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.0v2w9ps1ob43r912r7dwc06p627m].[max:co2:qk]' />
+              <color column='[federated.0v2w9ps1ob43r912r7dwc06p627m].[none:sector:nk]' />
+              <text column='[federated.0v2w9ps1ob43r912r7dwc06p627m].[none:sector:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{37B035E1-89C3-44A7-8A86-A67941EA340E}' />
+    </worksheet>
+    <worksheet name='CO2 per sector in Germany 2020 (2)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='agri_umweltbundesamt_emissions (capstone_pool)' name='federated.0v2w9ps1ob43r912r7dwc06p627m' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0v2w9ps1ob43r912r7dwc06p627m'>
+            <column aggregation='CountD' datatype='real' datatype-customized='true' name='[co2]' role='measure' type='quantitative' />
+            <column-instance column='[sector]' derivation='None' name='[none:sector:nk]' pivot='key' type='nominal' />
+            <column-instance column='[co2]' derivation='Sum' name='[pcto:sum:co2:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Columns' type='PctTotal' />
+            </column-instance>
+            <column datatype='string' name='[sector]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0v2w9ps1ob43r912r7dwc06p627m].[none:sector:nk]'>
+            <groupfilter function='level-members' level='[none:sector:nk]' />
+          </filter>
+          <slices>
+            <column>[federated.0v2w9ps1ob43r912r7dwc06p627m].[none:sector:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='font-family' data-class='subtotal' scope='cols' value='Waseem' />
+            <format attr='font-family' data-class='subtotal' scope='rows' value='Trattatello' />
+            <format attr='font-size' field='[federated.0v2w9ps1ob43r912r7dwc06p627m].[none:sector:nk]' value='16' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='font-size' data-class='subtotal' field='[federated.0v2w9ps1ob43r912r7dwc06p627m].[none:sector:nk]' value='16' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-family' scope='cols' value='Arial' />
+            <format attr='font-family' scope='rows' value='Trattatello' />
+            <format attr='font-size' scope='cols' value='10' />
+            <format attr='font-size' field='[federated.0v2w9ps1ob43r912r7dwc06p627m].[none:sector:nk]' value='18' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-family' value='Arial' />
+            <format attr='font-size' value='15' />
+          </style-rule>
+          <style-rule element='title'>
+            <format attr='font-family' value='Arial' />
+          </style-rule>
+          <style-rule element='tooltip'>
+            <format attr='font-family' value='Arial' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0v2w9ps1ob43r912r7dwc06p627m].[none:sector:nk]</rows>
+        <cols>[federated.0v2w9ps1ob43r912r7dwc06p627m].[pcto:sum:co2:qk]</cols>
+      </table>
+      <simple-id uuid='{6CF09A72-4C6B-4316-8B39-DEA4AC4EA134}' />
+    </worksheet>
+    <worksheet name='Food (kg) eaten in Germany (per person)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='agri_dbv_consumption2+ (capstone_pool)' name='federated.0m61kwm1ylmubb1d03y4y1hyzvtb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0m61kwm1ylmubb1d03y4y1hyzvtb'>
+            <column-instance column='[kg_per_person]' derivation='Avg' name='[avg:kg_per_person:qk]' pivot='key' type='quantitative' />
+            <column caption='Food Product' datatype='string' name='[food_product]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Eggs (items)&quot;' value='Eggs (# of items)' />
+              </aliases>
+            </column>
+            <column datatype='real' name='[kg_per_person]' role='measure' type='quantitative' />
+            <column-instance column='[food_product]' derivation='None' name='[none:food_product:nk]' pivot='key' type='nominal' />
+            <column-instance column='[year]' derivation='Year-Trunc' name='[tyr:year:ok]' pivot='key' type='ordinal' />
+            <column caption='Year' datatype='date' datatype-customized='true' name='[year]' role='dimension' type='quantitative' />
+            <column-instance column='[year]' derivation='Year' name='[yr:year:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[none:food_product:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Milk, Butter, Cheese&quot;</bucket>
+              <bucket>&quot;Potatoes&quot;</bucket>
+              <bucket>&quot;Bread&quot;</bucket>
+              <bucket>&quot;Eggs (items)&quot;</bucket>
+              <bucket>&quot;Vegetables, salad&quot;</bucket>
+              <bucket>&quot;Fruits&quot;</bucket>
+              <bucket>&quot;Meat&quot;</bucket>
+              <bucket>&quot;Fish&quot;</bucket>
+              <bucket>&quot;Oils, fats&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[yr:year:ok]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[yr:year:ok]' member='1900' />
+              <groupfilter function='member' level='[yr:year:ok]' member='2019' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[yr:year:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[avg:kg_per_person:qk]' scope='rows' value='' />
+            <encoding attr='space' class='0' field='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[avg:kg_per_person:qk]' field-type='quantitative' major-origin='0.0' major-show='false' major-spacing='100.0' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[avg:kg_per_person:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[tyr:year:ok]' value='59' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height-header' value='10' />
+            <format attr='height' field='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[none:food_product:nk]' value='84' />
+            <format attr='text-align' data-class='subtotal' field='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[none:food_product:nk]' value='center' />
+            <format attr='vertical-align' data-class='subtotal' field='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[none:food_product:nk]' value='center' />
+            <format attr='font-size' data-class='subtotal' field='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[none:food_product:nk]' value='10' />
+            <format attr='font-weight' data-class='subtotal' field='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[none:food_product:nk]' value='bold' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[tyr:year:ok]' value='false' />
+            <format attr='font-weight' field='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[none:food_product:nk]' value='bold' />
+            <format attr='vertical-align' field='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[none:food_product:nk]' value='top' />
+            <format attr='font-size' scope='cols' value='14' />
+            <format attr='font-family' scope='cols' value='Arial' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[tyr:year:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[avg:kg_per_person:qk]</rows>
+        <cols>([federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[none:food_product:nk] / [federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[tyr:year:ok])</cols>
+      </table>
+      <simple-id uuid='{E4C4ADBB-C750-4D6B-A8EA-C970552AECEB}' />
+    </worksheet>
+    <worksheet name='Foodprint Germany (per person)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='agri_dbv_consumption2+ (capstone_pool)' name='federated.0m61kwm1ylmubb1d03y4y1hyzvtb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0m61kwm1ylmubb1d03y4y1hyzvtb'>
+            <column caption='CO2 per product' datatype='real' name='[Calculation_415246021050077198]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[co2_footprint] * [kg_per_person]' />
+            </column>
+            <column-instance column='[Calculation_415246021050077198]' derivation='Avg' name='[avg:Calculation_415246021050077198:qk]' pivot='key' type='quantitative' />
+            <column caption='Co2 Footprint' datatype='real' name='[co2_footprint]' role='measure' type='quantitative' />
+            <column caption='Food Product' datatype='string' name='[food_product]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Eggs (items)&quot;' value='Eggs (# of items)' />
+              </aliases>
+            </column>
+            <column datatype='real' name='[kg_per_person]' role='measure' type='quantitative' />
+            <column-instance column='[food_product]' derivation='None' name='[none:food_product:nk]' pivot='key' type='nominal' />
+            <column-instance column='[year]' derivation='Year-Trunc' name='[tyr:year:ok]' pivot='key' type='ordinal' />
+            <column caption='Year' datatype='date' datatype-customized='true' name='[year]' role='dimension' type='quantitative' />
+            <column-instance column='[year]' derivation='Year' name='[yr:year:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[none:food_product:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Milk, Butter, Cheese&quot;</bucket>
+              <bucket>&quot;Potatoes&quot;</bucket>
+              <bucket>&quot;Bread&quot;</bucket>
+              <bucket>&quot;Eggs (items)&quot;</bucket>
+              <bucket>&quot;Vegetables, salad&quot;</bucket>
+              <bucket>&quot;Fruits&quot;</bucket>
+              <bucket>&quot;Meat&quot;</bucket>
+              <bucket>&quot;Fish&quot;</bucket>
+              <bucket>&quot;Oils, fats&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[yr:year:ok]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[yr:year:ok]' member='1900' />
+              <groupfilter function='member' level='[yr:year:ok]' member='2019' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[yr:year:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[avg:Calculation_415246021050077198:qk]' scope='rows' value='KG CO2 / year' />
+            <format attr='width' field='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[avg:Calculation_415246021050077198:qk]' value='66' />
+            <encoding attr='space' class='0' field='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[avg:Calculation_415246021050077198:qk]' field-type='quantitative' major-origin='0.0' major-show='false' major-spacing='1000.0' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[avg:Calculation_415246021050077198:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[tyr:year:ok]' value='59' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height-header' value='10' />
+            <format attr='height' field='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[none:food_product:nk]' value='84' />
+            <format attr='text-align' data-class='subtotal' field='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[none:food_product:nk]' value='center' />
+            <format attr='vertical-align' data-class='subtotal' field='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[none:food_product:nk]' value='center' />
+            <format attr='font-size' data-class='subtotal' field='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[none:food_product:nk]' value='10' />
+            <format attr='font-weight' data-class='subtotal' field='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[none:food_product:nk]' value='bold' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[tyr:year:ok]' value='false' />
+            <format attr='font-weight' field='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[none:food_product:nk]' value='bold' />
+            <format attr='vertical-align' field='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[none:food_product:nk]' value='top' />
+            <format attr='font-size' scope='cols' value='14' />
+            <format attr='font-family' scope='cols' value='Arial' />
+            <format attr='font-weight' scope='cols' value='normal' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[tyr:year:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[avg:Calculation_415246021050077198:qk]</rows>
+        <cols>([federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[none:food_product:nk] / [federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[tyr:year:ok])</cols>
+      </table>
+      <simple-id uuid='{111323E2-FDE5-4B46-830B-AD1E3E115F6D}' />
+    </worksheet>
+    <worksheet name='Kg and CO2 per person per year'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='agri_dbv_consumption2+ (capstone_pool)' name='federated.0m61kwm1ylmubb1d03y4y1hyzvtb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0m61kwm1ylmubb1d03y4y1hyzvtb'>
+            <column caption='CO2 per product' datatype='real' name='[Calculation_415246021050077198]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[co2_footprint] * [kg_per_person]' />
+            </column>
+            <column-instance column='[Calculation_415246021050077198]' derivation='Avg' name='[avg:Calculation_415246021050077198:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[kg_per_person]' derivation='Avg' name='[avg:kg_per_person:qk]' pivot='key' type='quantitative' />
+            <column caption='Co2 Footprint' datatype='real' name='[co2_footprint]' role='measure' type='quantitative' />
+            <column caption='Food Product' datatype='string' name='[food_product]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Eggs (items)&quot;' value='Eggs (# of items)' />
+              </aliases>
+            </column>
+            <column datatype='real' name='[kg_per_person]' role='measure' type='quantitative' />
+            <column-instance column='[food_product]' derivation='None' name='[none:food_product:nk]' pivot='key' type='nominal' />
+            <column-instance column='[year]' derivation='Year-Trunc' name='[tyr:year:ok]' pivot='key' type='ordinal' />
+            <column caption='Year' datatype='date' datatype-customized='true' name='[year]' role='dimension' type='quantitative' />
+            <column-instance column='[year]' derivation='Year' name='[yr:year:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[none:food_product:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Milk, Butter, Cheese&quot;</bucket>
+              <bucket>&quot;Potatoes&quot;</bucket>
+              <bucket>&quot;Bread&quot;</bucket>
+              <bucket>&quot;Eggs (items)&quot;</bucket>
+              <bucket>&quot;Vegetables, salad&quot;</bucket>
+              <bucket>&quot;Fruits&quot;</bucket>
+              <bucket>&quot;Meat&quot;</bucket>
+              <bucket>&quot;Fish&quot;</bucket>
+              <bucket>&quot;Oils, fats&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[yr:year:ok]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[yr:year:ok]' member='1900' />
+              <groupfilter function='member' level='[yr:year:ok]' member='2019' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[tyr:year:ok]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[avg:Calculation_415246021050077198:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[yr:year:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[tyr:year:ok]' value='38' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[none:food_product:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[avg:kg_per_person:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[none:food_product:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[avg:Calculation_415246021050077198:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[none:food_product:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[avg:kg_per_person:qk] + [federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[avg:Calculation_415246021050077198:qk])</rows>
+        <cols>([federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[none:food_product:nk] / [federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[tyr:year:ok])</cols>
+      </table>
+      <simple-id uuid='{289B9079-F121-45F7-81B6-4E3DD8B14DF7}' />
+    </worksheet>
+    <worksheet name='kg per person per food group'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='agri_dbv_consumption2+ (capstone_pool)' name='federated.0m61kwm1ylmubb1d03y4y1hyzvtb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0m61kwm1ylmubb1d03y4y1hyzvtb'>
+            <column-instance column='[kg_per_person]' derivation='Avg' name='[avg:kg_per_person:qk]' pivot='key' type='quantitative' />
+            <column caption='Food Product' datatype='string' name='[food_product]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Eggs (items)&quot;' value='Eggs (# of items)' />
+              </aliases>
+            </column>
+            <column datatype='real' name='[kg_per_person]' role='measure' type='quantitative' />
+            <column-instance column='[food_product]' derivation='None' name='[none:food_product:nk]' pivot='key' type='nominal' />
+            <column-instance column='[year]' derivation='Year-Trunc' name='[tyr:year:ok]' pivot='key' type='ordinal' />
+            <column caption='Year' datatype='date' datatype-customized='true' name='[year]' role='dimension' type='quantitative' />
+            <column-instance column='[year]' derivation='Year' name='[yr:year:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[none:food_product:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Milk, Butter, Cheese&quot;</bucket>
+              <bucket>&quot;Potatoes&quot;</bucket>
+              <bucket>&quot;Bread&quot;</bucket>
+              <bucket>&quot;Eggs (items)&quot;</bucket>
+              <bucket>&quot;Vegetables, salad&quot;</bucket>
+              <bucket>&quot;Fruits&quot;</bucket>
+              <bucket>&quot;Meat&quot;</bucket>
+              <bucket>&quot;Fish&quot;</bucket>
+              <bucket>&quot;Oils, fats&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[yr:year:ok]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[yr:year:ok]' member='1900' />
+              <groupfilter function='member' level='[yr:year:ok]' member='2019' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[yr:year:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[tyr:year:ok]' value='38' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[none:food_product:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[avg:kg_per_person:qk]</rows>
+        <cols>([federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[none:food_product:nk] / [federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[tyr:year:ok])</cols>
+      </table>
+      <simple-id uuid='{76D17A66-A4D4-43E7-A945-A82820CEB55A}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='13' param='horz' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='7' param='horz' w='82400' x='800' y='1000'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='98000' id='5' w='82400' x='800' y='1000'>
+                <zone h='98000' id='3' name='CO2 Emissions 1900' w='41200' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='98000' id='9' name='CO2 Emissions 2019' w='41200' x='42000' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+            <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' fixed-size='160' h='98000' id='12' is-fixed='true' param='horz' w='16000' x='83200' y='1000'>
+              <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' fixed-size='744' h='98000' id='14' is-fixed='true' name='CO2 Emissions 2019' pane-specification-id='2' param='[federated.1tl4urc06zspc813t0gno1co3qr6].[none:food_product:nk]' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='40' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='84000' id='39' param='vert' w='84000' x='8000' y='8000'>
+                <zone fixed-size='280' h='98000' id='3' is-fixed='true' name='CO2 Emissions 1900' w='41200' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='98000' id='9' is-fixed='true' name='CO2 Emissions 2019' w='41200' x='42000' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' fixed-size='744' h='98000' id='14' name='CO2 Emissions 2019' pane-specification-id='2' param='[federated.1tl4urc06zspc813t0gno1co3qr6].[none:food_product:nk]' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{3DF7D979-0FD6-464F-9943-C5B574C14B34}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='135'>
+    <window class='worksheet' name='CO2 Emissions 1900'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='6' param='[federated.1tl4urc06zspc813t0gno1co3qr6].[none:food_product:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E105374C-1BE5-49C0-A776-726F88D6A2DB}' />
+    </window>
+    <window class='worksheet' name='CO2 Emissions 2019'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F6679DED-5362-4009-A68A-88F01DBA1A86}' />
+    </window>
+    <window class='worksheet' name='CO2 Emissions 1900 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='5' param='[federated.1tl4urc06zspc813t0gno1co3qr6].[none:food_product:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{30C79D65-E032-4A16-A78C-1BEEFE3A8FBA}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='CO2 Emissions 1900'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='CO2 Emissions 2019'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{D4CA30A1-0B25-4E14-87DC-78E6DEBFF608}' />
+    </window>
+    <window class='worksheet' name='kg per person per food group'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[none:food_product:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B18F9B45-DD96-4D1A-9EBE-1EF145DE00FF}' />
+    </window>
+    <window class='worksheet' name='Food (kg) eaten in Germany (per person)'>
+      <cards>
+        <edge name='left'>
+          <strip size='219'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='100'>
+            <card pane-specification-id='2' param='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[tyr:year:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A7760812-CE15-4C41-9A53-64A4A2E307CA}' />
+    </window>
+    <window class='worksheet' name='Foodprint Germany (per person)'>
+      <cards>
+        <edge name='left'>
+          <strip size='219'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='116'>
+            <card pane-specification-id='4' param='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[tyr:year:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D8BE8F53-EDAD-4C9D-8642-AE0B94C407C4}' />
+    </window>
+    <window class='worksheet' name='Kg and CO2 per person per year'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.0m61kwm1ylmubb1d03y4y1hyzvtb].[none:food_product:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5FA7A428-4BF5-4553-A345-A6D6F44446EC}' />
+    </window>
+    <window class='worksheet' name='CO2 per sector in Germany 2020'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CFBE4B99-0BC5-4112-9F2E-EFA7E41262A3}' />
+    </window>
+    <window class='worksheet' name='CO2 per sector in Germany 2020 (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0v2w9ps1ob43r912r7dwc06p627m].[none:sector:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DB3EEE58-262F-4C40-9D98-A353C64F0E14}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Beef vs. chicken'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='279'>
+            <card pane-specification-id='1' param='[federated.0ws19ki0b4q9850zrwrxa0bbrmgy].[none:co2_emissions:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E752189D-8E51-4001-9575-71D0747E3102}' />
+    </window>
+  </windows>
+</workbook>
